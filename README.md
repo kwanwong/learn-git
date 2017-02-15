@@ -71,6 +71,27 @@
     $ git reset HEAD filename
     把暂存区的修改撤销掉，重新放回工作区
 
+> 删除文件
+
+    $ git rm test.txt
+    $ git commit -m 'remove file test.txt'
+
+    如果误删了文件，使用以下命令恢复
+    $ git checkout -- test.txt
+
+*远程仓库*
+
+> 添加远程库
+
+    $ git remote add origin git@github.com:kwanwong/learn-git.git
+    本地库与远程库关联
+
+    $ git push -u origin master
+    第一次推送
+    $ git push origin master
+    第一次之后的推送，不需要-u参数
+    把本地库的内容推送到远程库
+
 
 
 
