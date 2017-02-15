@@ -53,7 +53,7 @@
 
     $ git reset --hard 75121 
 
-> 查看记录的每一条命令
+> 查看记录的每一条命令(可用于回到未来版本)
 
     $ git reflog
     75121ab HEAD@{0}: reset: moving to 75121
@@ -61,5 +61,18 @@
     75121ab HEAD@{2}: commit: 完善README.md文件
     4718977 HEAD@{3}: commit: 添加README.md文件
     a9ddb4d HEAD@{4}: commit (initial): 添加gitignore文件
+
+> 撤销修改
+
+    $ git checkout -- filename
+    丢弃工作区的修改
+    文件回到最近一次git add或git commit时的状态
+
+    $ git reset HEAD filename
+    把暂存区的修改撤销掉，重新放回工作区
+
+
+
+
 
 
