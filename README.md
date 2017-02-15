@@ -92,6 +92,9 @@
     第一次之后的推送，不需要-u参数
     把本地库的内容推送到远程库
 
+> 从远程库克隆
+
+    $ git clone git@github.com:kwanwong/hello-world.git
 
 
 
