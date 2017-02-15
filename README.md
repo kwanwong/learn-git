@@ -96,7 +96,12 @@
 
     $ git clone git@github.com:kwanwong/hello-world.git
 
+> 创建与合并分支
 
+    $ git checkout -b dev
+    或者下面两条命令
+    $ git branch dev
+    $ git checkout dev 
 
 
 
