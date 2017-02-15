@@ -99,9 +99,20 @@
 > 创建与合并分支
 
     $ git checkout -b dev
+    创建并切换分支
     或者下面两条命令
     $ git branch dev
     $ git checkout dev 
+    
+    合并分支
+    $ git merge dev
+    
+    删除分支
+    $ git branch -d dev
+
+
+
+
 
 
 
