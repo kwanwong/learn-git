@@ -6,6 +6,13 @@
     git config --global user.name='Your Name'
     git config --global user.email='Your Email'
 
+*生成ssh key*
+
+    $ ssh-keygen -t rsa -C "kopiteken@163.com"
+
+    $ ssh git@github.com
+    验证ssh key是否可以访问Github
+
 *创建版本库*
 
 > 创建目录
