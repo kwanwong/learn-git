@@ -79,6 +79,9 @@
     如果误删了文件，使用以下命令恢复
     $ git checkout -- test.txt
 
+    修补最近一次提交
+    $ git commit --amend
+
 *远程仓库*
 
 > 添加远程库
