@@ -120,7 +120,13 @@
     删除分支
     $ git branch -d dev
 
+> 使用Git Alias别名
 
+    $ git config --global alias.s status
+    添加别名,使用git s表示git status
+    
+    $ git config --global --unset alias.s
+    删除别名，也可以在.gitconfig文件中直接删除对应行
 
 
 
