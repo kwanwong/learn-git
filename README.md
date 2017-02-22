@@ -124,10 +124,17 @@
 
     $ git config --global alias.s status
     添加别名,使用git s表示git status
-    
+
     $ git config --global --unset alias.s
     删除别名，也可以在.gitconfig文件中直接删除对应行
 
+> 使用Git Stash改善工作流
+
+    $ git stash
+    将当前工作区内容搁置
+    $ git stash apply
+    $ git stash pop
+    恢复到之前状态
 
 
 
